@@ -1,0 +1,129 @@
+
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-container {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .contact-info {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    color: #4f379b; /* Deep Purple */
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .info-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box h3 {
+    font-size: 1.5rem;
+    color: #7473c8; /* Soft Blue */
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    width: 55%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    color: #4f379b;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    color: #4f379b;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #bdc8e0; /* Light Gray */
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #7473c8; /* Soft Blue */
+  }
+  
+  textarea {
+    min-height: 150px;
+  }
+  
+  .submit-button {
+    background-color: #4f379b; /* Deep Purple */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #7473c8; /* Soft Blue */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-info,
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
