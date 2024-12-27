@@ -65,13 +65,6 @@ const BaseLayout = () => {
             </li>
           </ul>
         </nav>
-
-        {/* Donate Button */}
-        <div className="me-3">
-          <Link className="btn btn-primary" to="/donate">
-            Donate
-          </Link>
-        </div>
       </header>
 
       <main id="content">
